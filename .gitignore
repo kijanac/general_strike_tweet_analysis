@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+old
+src/analyze.py
+src/apify.py
+src/compare_html_tweets.py
+data/
+
+.env
