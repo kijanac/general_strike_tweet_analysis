@@ -12,6 +12,5 @@ old
 src/analyze.py
 src/apify.py
 src/compare_html_tweets.py
-data/
 
 .env
