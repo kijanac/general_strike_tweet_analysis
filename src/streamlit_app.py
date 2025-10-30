@@ -203,8 +203,8 @@ def main() -> None:
     st.caption("Investigate engagement for tweets mentioning \"general strike\".")
     st.markdown(SECTION_STYLE, unsafe_allow_html=True)
 
-    data_dir = st.sidebar.text_input("Data directory", value=str(DATA_DIR))
-    df = load_dataset(data_dir)
+    data_dir = DATA_DIR
+    df = load_dataset(str(data_dir))
     if df.is_empty():
         st.warning("No JSON tweet data found in this directory.")
         st.stop()
